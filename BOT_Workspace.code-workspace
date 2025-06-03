@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "BOT_Workspace",
+			"path": "."
+		},
+		{
+			"name": "ShadCN_graph-main",
+			"path": "../ShadCN_graph-main"
+		}
+	],
+	"settings": {}
+}

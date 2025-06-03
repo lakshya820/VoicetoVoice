@@ -1,0 +1,116 @@
+.tests1 {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    margin-top: 150px;
+    align-items: center;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.tests1_header{
+    display: flex;
+    text-align: left;
+    padding-top: 1rem;
+}
+
+.tests1_header h1{
+    font: normal normal bold 33px/47px Open Sans, sans-serif;
+    letter-spacing: 0px;
+    color: #43425D;
+    opacity: 1;
+}
+
+.tests1_card{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    width: 90%; /* Use percentage for responsiveness */
+    max-width: 1200px; /* Optional max-width for larger screens */
+    background: #FBFBFB;
+    box-shadow: 7px 7px 10px #0000000A;
+    border-radius: 20px;
+    opacity: 1;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.card_header{
+    font: normal normal 600 1.5rem/1.5 Open Sans, sans-serif;
+    letter-spacing: 0px;
+    color: #43425D;
+    opacity: 1;
+    padding-top: 0.5rem;
+}
+
+
+.card_label1 {
+    font: normal normal normal 1rem/1.5 Open Sans, sans-serif;
+    letter-spacing: 0px;
+    color: #43425D;
+    padding-top: 0.5rem;
+}
+
+.card_label2 {
+    font: normal normal 600 1.125rem/1.5 Open Sans, sans-serif;
+    letter-spacing: 0px;
+    color: #43425D;
+    padding-top: 0.5rem;
+}
+
+.card_buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    padding-top: 1rem;
+}
+
+.card_button_start, .card_button_cancel {
+    padding: 0.5rem 1rem;
+    font: normal normal normal 1rem/1.5 Open Sans, sans-serif;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.card_button_start {
+    background-color: #5F249F;
+}
+
+.card_button_start:hover {
+    background-color: #5a54d6;
+}
+
+.card_button_cancel {
+    background-color: #63666A;
+}
+
+.card_button_cancel:hover {
+    background-color: #5a6268;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .tests1_header {
+        font-size: 1.5rem;
+        padding-left: 0.5rem;
+    }
+
+    .tests1_card {
+        width: 100%;
+        margin-left: 0;
+        padding: 0.5rem;
+    }
+
+    .card_header, .card_label1, .card_label2 {
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    .card_buttons {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+}

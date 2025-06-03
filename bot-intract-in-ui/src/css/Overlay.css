@@ -1,0 +1,82 @@
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 1);
+    z-index: 2;
+    cursor: pointer;
+    text-align: center;
+}
+
+.overlay .overlay-content{
+    /* height:inherit;
+    padding-top: 15rem; */
+    width: 40rem;
+    height: auto;
+    margin: auto;
+    margin-top: 70px;
+}
+
+.overlay-elem{
+    padding-bottom: 2rem;
+    color: #e1dcdc;
+}
+
+.overlay_button{
+  background-color: #5F249F;
+  width: 150px;
+  height: 50px;
+  border-radius: 5px;
+  font-size: 20px;
+  color: white;
+  border: none;
+}
+
+.overlay_div{
+  border: 2px solid grey; /* You can adjust the color and width of the border */
+  padding: 10px;          /* Add padding to create some space between the border and the content */
+  border-radius: 5px;
+  width: 60vw;
+  margin: 20rem -15rem;
+  font-size: 18px;
+  background-color: grey;
+}
+
+/* loader gif starts */
+.loader-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+.loader {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background: linear-gradient(0deg, #090909 50%, #5F249F 100%);
+  animation: spin 1s linear infinite !important;
+}
+
+.inner-circle {
+  width: 90%;
+  height: 90%;
+  background-color: rgb(15, 15, 15);
+  border-radius: 50%;
+}

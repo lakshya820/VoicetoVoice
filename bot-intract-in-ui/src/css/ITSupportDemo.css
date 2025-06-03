@@ -1,0 +1,36 @@
+.support-page-container {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+  }
+    
+  .support-page-background {
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+  
+  .support-content {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  
+  /* Apply these styles directly to the image */
+  .support-content img {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover; /* This ensures the image covers the entire space */
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  
+  /* Make sure CompactVoiceAssistant stays above the image */
+  .compact-voice-assistant {
+    z-index: 10;
+  }

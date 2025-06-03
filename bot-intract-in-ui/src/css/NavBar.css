@@ -1,0 +1,33 @@
+.navbar {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch; /* Make sure all buttons stretch to the navbar's width */
+  justify-content: flex-start; /* Ensure no space is added between buttons */
+  width: 19.625rem;
+  position: fixed;
+  top: 3.75rem;
+  left: 0;
+  height: calc(100% - 3.75rem);
+  background-color: #5F249F;
+  padding: 0; /* Remove any internal padding */
+}
+
+.nav-button {
+  height: 3.75rem; /* Fixed height for the buttons */
+  margin: 0; /* Remove any external margin */
+  color: white;
+  background: none;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  text-align: left;
+  padding: 0 20px;
+  transition: background-color 0.3s;
+
+  font: normal normal normal 16px/22px Open Sans, sans-serif;
+}
+
+.navbar button:hover {
+  background-color: #330072;
+  font-weight: bold;
+}

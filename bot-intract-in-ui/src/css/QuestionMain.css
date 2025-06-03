@@ -1,0 +1,79 @@
+.exam{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    padding-top: 60px;
+
+    
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.exam_content {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    height: 65vh;
+    
+    
+    border-radius: 1.25rem;
+    border: solid 1px #F4F5F8;
+    background: #FBFBFB;
+    box-shadow: 7px 7px 10px #0000000A;
+
+ }
+
+ .exam-timer{
+    display: flex;
+    flex-direction: row;
+    font: normal normal 500 16px/27px Open Sans, sans-serif;
+    align-items: flex-end;
+ }
+  
+  .exam_card {
+    width: 50vw;
+    height: 65vh;
+    border: none;
+    padding-top: 20px;
+    padding-left: 20px;
+  }
+
+  .exam_card_header{
+    display: flex;
+    flex-direction: column;
+    color: #43425D;
+    font: normal normal 700 24px/25px Open Sans, sans-serif;
+    gap: 10px;
+  }
+
+  .exam_end{
+    display: flex;
+    font: normal normal 600 24px/25px Open Sans, sans-serif;
+    background-color: #F4F5F8;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+  }
+
+  .exam_end p{
+    margin-top: 43vh;
+   
+    
+    
+  }
+
+.overlay_div{
+  border: 2px solid grey; /* You can adjust the color and width of the border */
+  padding: 10px;          /* Add padding to create some space between the border and the content */
+  border-radius: 5px;
+  width: 60vw;
+  margin: auto;
+  font-size: 18px;
+  background-color: grey;
+}
+
+.exam_note{
+font: normal normal normal 16px/27px Open Sans, sans-serif;
+padding-top: 20px;
+}
